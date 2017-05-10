@@ -37,7 +37,7 @@ public class FactoriaPDF {
 
         String plantilla = "Plantilla.pdf";
         String ticket = "miTicket.pdf";
-        Date hoy = new Date();
+        
 
         try {
             documentoPDF = PDDocument.load(new File(plantilla));
@@ -49,7 +49,7 @@ public class FactoriaPDF {
             rellenaCampo(entrada[3], "Baños del Alcázar Califal");
             rellenaCampo(entrada[4], "12:00");
             rellenaCampo(entrada[5], "Jardín Botánico");
-            rellenaCampo(entrada[6], hoy.toString());
+            rellenaCampo(entrada[6], "Miercoles, 10/05/2017");
 //////////////////////////////////////////////////////////////////////////////
             rellenaCampo(recibo[0], "1");
             rellenaCampo(recibo[1], "ENTR_ALC");
