@@ -1,7 +1,7 @@
 
 
 package GUI;
-/*
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
@@ -9,13 +9,14 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
 import org.apache.pdfbox.pdmodel.interactive.form.PDField;
-*/
+
+
 /**
  *
  * @author Grupo 6 de Entornos de Desarrollo
  */
 public class FactoriaPDF {
-/*
+
     
     private static PDDocument documentoPDF;
 
@@ -87,6 +88,6 @@ public class FactoriaPDF {
             System.err.println("No se han encontrado campos de formulario con el nombre:" + campo);
         }
     }
-*/
+
 }
 
