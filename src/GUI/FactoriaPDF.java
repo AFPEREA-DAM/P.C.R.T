@@ -4,7 +4,6 @@ package GUI;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Date;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
@@ -26,7 +25,6 @@ public class FactoriaPDF {
             "Hora2", "Lugar2",
             "Hora3", "Lugar3",
             "Fecha"};
-
         String[] recibo = {"Cantidad1", "Item1", "Precio1",
             "Cantidad2", "Item2", "Precio2",
             "Cantidad3", "Item3", "Precio3",
